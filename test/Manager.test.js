@@ -1,7 +1,7 @@
 const inquirer= require('inquirer');
 const path= require('path');
 const fs= require('fs');
-const Manager = require("../lib/Manager");
+const Manager = require('../lib/Manager');
 
 test("Can set office number via constructor argument", () => {
   const testValue = 100;
