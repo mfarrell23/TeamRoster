@@ -1,0 +1,24 @@
+{
+  "name": "unit10hw",
+  "version": "1.0.0",
+  "description": "OOP and testing for week 10 homework",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "intern": "jest --verbose --detectOpenHandles --forceExit test/Intern.test.js",
+    "engineer": "jest --verbose --detectOpenHandles --forceExit test/Engineer.test.js",
+    "manager": "jest --verbose --detectOpenHandles --forceExit test/Manager.test.js",
+    "employee": "jest --verbose --detectOpenHandles --forceExit test/Employee.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.3.1"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
