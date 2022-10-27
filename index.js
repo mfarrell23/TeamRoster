@@ -136,7 +136,4 @@ function addIntern(){
 }
 
 addManager();
-//  {
-//   console.log("calling init function");
-//   fs.writeFileSync("index.html", generateHTML(data));
-// }
+
